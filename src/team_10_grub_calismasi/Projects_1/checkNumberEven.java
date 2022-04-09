@@ -20,19 +20,15 @@ public class checkNumberEven {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Lütfen bir sayi giriniz");
-        int number = scanner.nextInt();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir sayi giriniz");
 
-        //  code Start here don't change before this line
-        // Kodu burdan baslatin ve bu satırdan önceki kodlari değiştirmeyin
+        int sayi = scan.nextInt();
 
+        if (sayi % 2 == 0) {
+            System.out.println(true);
+        } else System.out.println(false);
 
-
-        if (number % 2 == 0) {
-            System.out.println("bu bir cift sayidir.");
-        } else
-            System.out.println("Bu  bir tek sayidir");
 
     }
 

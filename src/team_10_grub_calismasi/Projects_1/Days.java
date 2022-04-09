@@ -28,5 +28,46 @@ public class Days {
                 Eger int 8 den buyuk ise  print "this is not a valid day"
                 NOT : BU PROBLEMI ÇÖZERKEN SWITCH STATEMENT KULLANIN
          */
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lutfen bir sayi giriniz");
+
+        int gun = scan.nextInt();
+
+        switch (gun) {
+
+            case 1:
+                System.out.println("P.tesi");
+
+                break;
+
+
+            case 2:
+                System.out.println("P.tesi");
+                break;
+            case 3:
+                System.out.println("P.tesi");
+                break;
+            case 4:
+                System.out.println("P.tesi");
+                break;
+            case 5:
+                System.out.println("P.tesi");
+                break;
+            case 6:
+                System.out.println("P.tesi");
+                break;
+            case 7:
+                System.out.println("P.tesi");
+                break;
+
+
+            default:
+                System.out.println("Yanlis sayi yazdiniz");
+        }
+
+
+    }
 
 }

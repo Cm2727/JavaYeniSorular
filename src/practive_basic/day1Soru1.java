@@ -1,45 +1,24 @@
 package practive_basic;
 
 public class day1Soru1 {
-
-     /*
-  Konsolda asagidaki ciktiyi yazdiriniz
-        T
-        E
-        C
-        H
-        P
-        R
-        O
-        E
-        D
-        U
-        C
-        A
-        T
-        I
-        O
-        N
-         */
-
     public static void main(String[] args) {
-        System.out.println("T");
-        System.out.println("E");
-        System.out.println("C");
-        System.out.println("P");
-        System.out.println("R");
-        System.out.println("O");
-        System.out.println(" ");
-        System.out.println("E");
-        System.out.println("D");
-        System.out.println("U");
-        System.out.println("C");
-        System.out.println("A");
-        System.out.println("T");
-        System.out.println("I");
-        System.out.println("O");
-        System.out.println("N");
 
+     int sayi1=44;
+     int sayi2=55;
+
+     carpma(sayi1,sayi2);
+
+
+
+
+
+
+
+    }
+
+    private static void carpma(int sayi1, int sayi2) {
+
+        System.out.println("Sayilarin carpimmi : " +(sayi1*sayi2));
     }
 
 }
