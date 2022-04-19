@@ -1,14 +1,12 @@
 package GeometriHesaplamaYontemi;
 
-public class Dikdortgen extends Sekil{
-
-    public Dikdortgen() {
+public class Kare extends Dikdortgen{
+    public Kare() {
     }
 
-    public Dikdortgen(double uzunKenar, double kisa) {
+    public Kare(double uzunKenar, double kisa) {
         super(uzunKenar, kisa);
     }
-
 
     @Override
     public double cevreHesaplama() {
@@ -22,11 +20,10 @@ public class Dikdortgen extends Sekil{
 
     @Override
     public String toString() {
-        return "Dikdortgen; " +
-                "\nuzunKenar= " + uzunKenar +
-                "\nkisaKenar= " + kisaKenar +
-                "\nAlani= "+alanHesaplama()+
-                "\nCevresi= "+cevreHesaplama()+
+        return "Kare; " +
+                "\nKenar=" + kisaKenar +
+                "\nAlan=" +alanHesaplama() +
+                "\ncevres=" + cevreHesaplama() +
                 "";
     }
 }
