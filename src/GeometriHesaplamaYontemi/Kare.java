@@ -8,15 +8,6 @@ public class Kare extends Dikdortgen{
         super(uzunKenar, kisa);
     }
 
-    @Override
-    public double cevreHesaplama() {
-        return super.cevreHesaplama();
-    }
-
-    @Override
-    public double alanHesaplama() {
-        return super.alanHesaplama();
-    }
 
     @Override
     public String toString() {

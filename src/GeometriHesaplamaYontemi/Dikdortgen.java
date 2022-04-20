@@ -11,16 +11,6 @@ public class Dikdortgen extends Sekil{
 
 
     @Override
-    public double cevreHesaplama() {
-        return super.cevreHesaplama();
-    }
-
-    @Override
-    public double alanHesaplama() {
-        return super.alanHesaplama();
-    }
-
-    @Override
     public String toString() {
         return "Dikdortgen; " +
                 "\nuzunKenar= " + uzunKenar +

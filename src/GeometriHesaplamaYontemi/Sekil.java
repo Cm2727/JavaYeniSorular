@@ -96,9 +96,9 @@ public class Sekil {
 
 
                 Cember cember = new Cember(yariCap);
-                cember.cemberAlanHesaplam();
-                cember.cemberCevreHesaplam();
-                System.out.println(cember);
+                cember.cemberCevreHesaplama();
+                cember.cemberAlanHesaplama();
+               //System.out.println(cember);
 
                 System.out.println("Devam etmek icin E islemden cikmak icin H yaziniz... ");
                 char chc = scan.next().toUpperCase().charAt(0);
@@ -117,7 +117,6 @@ public class Sekil {
             case 4:
                 cikis();
                 break;
-
 
 
             default:
@@ -155,17 +154,21 @@ public class Sekil {
 
     }
 
-    public double cemberAlanHesaplam() {
-        return (yariCap * yariCap * 3.14);
+
+    public void cemberAlanHesaplama(){ // cember alan hesaplama methodu
+        System.out.println("Cemberin alani = " + (yariCap*yariCap*3.14));
+    }
+    public void cemberCevreHesaplama(){ // cember cevre hesaplama methodu
+        System.out.println("Cemberin cevresi = " + (yariCap*2*3.14));
     }
 
-    public double cemberCevreHesaplam() {
-        return 2 * 3.14 * yariCap;
 
-    }
 
     public static void cikis() {
         System.out.println("Hoscakalin iyi calismalar.....");
     }
+
+
+
 
 }
